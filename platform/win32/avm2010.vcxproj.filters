@@ -37,6 +37,9 @@
     <Filter Include="AVMPI">
       <UniqueIdentifier>{31af1aa8-03ac-4575-9107-718d02e5e200}</UniqueIdentifier>
     </Filter>
+    <Filter Include="lzma">
+      <UniqueIdentifier>{002eb12b-df79-4064-9521-2c300f0dfd93}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\core\AbcData.cpp">
@@ -670,6 +673,36 @@
     </ClCompile>
     <ClCompile Include="..\..\core\ObjectIO.cpp">
       <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\ConcurrencyGlue.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\FixedHeapUtils.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\Isolate.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shell\ShellWorkerDomainGlue.cpp">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shell\ShellWorkerGlue.cpp">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\other-licenses\lzma\Alloc.c">
+      <Filter>lzma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\other-licenses\lzma\LzmaDec.c">
+      <Filter>lzma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\other-licenses\lzma\LzFind.c">
+      <Filter>lzma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\other-licenses\lzma\LzmaEnc.c">
+      <Filter>lzma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\other-licenses\lzma\LzmaLib.c">
+      <Filter>lzma</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -1407,6 +1440,39 @@
     </ClInclude>
     <ClInclude Include="..\..\core\ObjectIO.h">
       <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\ConcurrencyGlue.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\FixedHeapUtils.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\Isolate.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\Isolate-inlines.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shell\ShellWorkerDomainGlue.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shell\ShellWorkerGlue.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\other-licenses\lzma\Alloc.h">
+      <Filter>lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\other-licenses\lzma\LzmaDec.h">
+      <Filter>lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\other-licenses\lzma\LzFind.h">
+      <Filter>lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\other-licenses\lzma\LzmaEnc.h">
+      <Filter>lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\other-licenses\lzma\LzmaLib.h">
+      <Filter>lzma</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
